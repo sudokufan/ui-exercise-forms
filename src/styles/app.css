@@ -8,12 +8,16 @@ main {
     text-align: center;
 }
 
-.passwordForm {
+#passwordForm {
     width: 70%;
     margin: 0 auto;
 }
 
-.passwordFormInputOuterBox {
+#passwordFormInputOuterBox {
     background-color: grey;
     border: 1px solid;
+}
+
+#hiddenPasswordHelperBox {
+    display: none;
 }
