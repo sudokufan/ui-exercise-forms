@@ -4,10 +4,31 @@
     <meta charset="utf-8" />
     <title>Password Reset Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles/app.pcss" />
-    <script async src="./scripts/app.ts"></script>
+    <link rel="stylesheet" href="./styles/app.css" />
+    <script async src="./scripts/app.js"></script>
   </head>
+
   <body>
-    <div>Replace me with the exercise design</div>
+    <main>
+      <div id="passwordForm">
+        <h1>Forgot Your Password?</h1>
+        <p>Please enter your email address below to receive a password reset link.</p>
+        
+        <div id="passwordFormInputOuterBox">
+          <div id="passwordFormInputInnerBox">
+            <p>Email address</p>
+            <form>
+              <input id="emailInput" type="email" placeholder="Your email address">
+              <button type="submit">Reset Password</button>
+            </form>
+            <p id="backButton">Go back</p>
+            <p id="hiddenPasswordHelper">Are you having trouble receiving your password reset?</p>
+            <p id="hiddenPasswordHelperBox">Please check your email address and try again.</p>
+        </div>
+        </div>
+    
+      </div>
+    </main>
   </body>
+
 </html>

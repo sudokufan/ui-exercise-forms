@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans serif;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#passwordForm {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#passwordFormInputOuterBox {
+    background-color: grey;
+    border: 1px solid;
+}
+
+#hiddenPasswordHelperBox {
+    display: none;
+}
