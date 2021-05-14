@@ -14,13 +14,15 @@
         <h1>Forgot Your Password?</h1>
         <p>Please enter your email address below to receive a password reset link.</p>
         
-        <div class="passwordFormInputBox">
-          <p>Email address</p>
-          <input type="email" placeholder="Your email address">
-          <button>Reset Password</button>
-          <p class="backButton">Go back</p>
-          <p>Are you having trouble receiving your password reset?</p>
-          <p class="hiddenPasswordResetBox"></p>
+        <div class="passwordFormInputOuterBox">
+          <div class="passwordFormInputInnerBox">
+            <p>Email address</p>
+            <input class="emailInput" type="email" placeholder="Your email address">
+            <button type="submit">Reset Password</button>
+            <p id="backButton">Go back</p>
+            <p>Are you having trouble receiving your password reset?</p>
+            <p id="hiddenPasswordResetBox"></p>
+        </div>
         </div>
     
       </div>
